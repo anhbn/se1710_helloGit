@@ -6,7 +6,11 @@ package vn.edu.fpt.git01;
  */
 public class Git01 {
 
+    public void displayGreeting() {
+        System.out.println("Hello SE1710. Today is Wednesday.");
+    }
+    
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        new Git01().displayGreeting();
     }
 }
